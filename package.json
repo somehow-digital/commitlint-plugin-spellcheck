@@ -1,0 +1,48 @@
+{
+	"name": "@somehow-digital/commitlint-plugin-spellcheck",
+	"description": "",
+	"version": "0.0.0",
+	"license": "MIT",
+	"type": "module",
+	"packageManager": "pnpm@9.1.0",
+	"keywords": [
+		"commitlint",
+		"commitlintplugin"
+	],
+	"engines": {
+		"node": ">=20.3.0",
+		"pnpm": ">=9.0.0"
+	},
+	"scripts": {
+		"prepare": "husky",
+		"lint": "pnpm run /^lint:.+/",
+		"lint:eslint": "eslint '**/*.{js,jsx,ts,tsx}'",
+		"lint:prettier": "prettier --check '**/*.{md,json,yml,yaml}'",
+		"lint:cspell": "cspell --no-progress --no-summary --no-must-find-files '**/*.*'",
+		"lint:knip": "knip --no-progress"
+	},
+	"exports": {
+		".": "./src/index.js"
+	},
+	"files": [
+		"./src/"
+	],
+	"peerDependencies": {
+		"cspell": "^8.8.1"
+	},
+	"dependencies": {
+		"cspell-lib": "^8.8.1"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^19.3.0",
+		"@somehow-digital/eslint-config": "^2.0.0",
+		"@somehow-digital/prettier-config": "^2.0.0",
+		"@types/node": "^20.12.12",
+		"cspell": "^8.8.1",
+		"eslint": "^9.3.0",
+		"husky": "^9.0.11",
+		"knip": "^5.16.0",
+		"lint-staged": "^15.2.2",
+		"prettier": "^3.2.5"
+	}
+}
