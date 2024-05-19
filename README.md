@@ -1,6 +1,6 @@
 # `spellcheck` plugin for `commitlint`
 
-> Spellcheck commit messages via `commitlint` and `cspell`.
+> Spellcheck commit messages via `cspell`.
 
 ---
 

@@ -1,6 +1,6 @@
 {
 	"name": "@somehow-digital/commitlint-plugin-spellcheck",
-	"description": "",
+	"description": "Spellcheck commit messages via `cspell`.",
 	"version": "0.0.0",
 	"license": "MIT",
 	"type": "module",
