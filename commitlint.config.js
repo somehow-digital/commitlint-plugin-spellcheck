@@ -2,12 +2,12 @@ import plugin from './src/index.js';
 
 export default {
 	rules: {
-		header: [2, 'always'],
-		body: [2, 'always'],
-		footer: [2, 'always'],
-		scope: [2, 'always'],
-		subject: [2, 'always'],
-		type: [2, 'always'],
+		'spellcheck/header': [2, 'always'],
+		'spellcheck/body': [2, 'always'],
+		'spellcheck/footer': [2, 'always'],
+		'spellcheck/scope': [2, 'always'],
+		'spellcheck/subject': [2, 'always'],
+		'spellcheck/type': [2, 'always'],
 	},
 	plugins: [plugin],
 };
