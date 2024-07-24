@@ -2,6 +2,13 @@ export default {
 	version: '0.2',
 	language: 'en',
 	import: ['@cspell/dict-de-de'],
+	dictionaryDefinitions: [
+		{
+			addWords: true,
+			name: 'project',
+			path: './dictionary.txt',
+		},
+	],
 	ignorePaths: [
 		'node_modules',
 		'package.json',
