@@ -1,7 +1,16 @@
 export default {
-	version: '0.2',
-	language: 'en',
-	import: ['@cspell/dict-de-de'],
+	dictionaries: [
+		'en_US',
+		'de-de',
+		'softwareTerms',
+		'typescript',
+		'node',
+		'html',
+		'css',
+		'bash',
+		'misc',
+		'project',
+	],
 	dictionaryDefinitions: [
 		{
 			addWords: true,
@@ -23,15 +32,7 @@ export default {
 		'.editorconfig',
 		'.prettierignore',
 	],
-	dictionaries: [
-		'en_US',
-		'de-de',
-		'softwareTerms',
-		'typescript',
-		'node',
-		'html',
-		'css',
-		'bash',
-		'misc',
-	],
+	import: ['@cspell/dict-de-de'],
+	language: 'en',
+	version: '0.2',
 };

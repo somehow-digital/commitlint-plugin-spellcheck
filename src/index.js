@@ -3,10 +3,10 @@ import { spellCheckDocument } from 'cspell-lib';
 const check = async (text) => {
 	const result = await spellCheckDocument(
 		{
-			text,
-			uri: '',
 			languageId: 'plaintext',
 			locale: 'en',
+			text,
+			uri: '',
 		},
 		{},
 		{},
@@ -17,11 +17,6 @@ const check = async (text) => {
 
 export default {
 	rules: {
-		'spellcheck/header': async ({ header }) => {
-			const result = await check(header);
-
-			return [result, 'header may not be misspelled'];
-		},
 		'spellcheck/body': async ({ body }) => {
 			const result = await check(body);
 
@@ -31,6 +26,11 @@ export default {
 			const result = await check(footer);
 
 			return [result, 'footer may not be misspelled'];
+		},
+		'spellcheck/header': async ({ header }) => {
+			const result = await check(header);
+
+			return [result, 'header may not be misspelled'];
 		},
 		'spellcheck/scope': async ({ scope }) => {
 			const result = await check(scope);
