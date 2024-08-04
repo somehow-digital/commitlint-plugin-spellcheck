@@ -15,12 +15,12 @@ importers:
       '@commitlint/cli':
         specifier: ^19.3.0
         version: 19.3.0(@types/node@20.14.14)(typescript@5.5.4)
-      '@cspell/dict-de-de':
-        specifier: ^4.0.0
-        version: 4.0.0
+      '@somehow-digital/cspell-dictionary':
+        specifier: ^1.0.0
+        version: 1.0.0(cspell@8.13.1)
       '@somehow-digital/eslint-config':
         specifier: github:somehow-digital/eslint-config
-        version: https://codeload.github.com/somehow-digital/eslint-config/tar.gz/7ad530d5859e0352bdd5dcc1639eb4833f4846bb(eslint@9.8.0)(prettier@3.3.3)(typescript@5.5.4)
+        version: https://codeload.github.com/somehow-digital/eslint-config/tar.gz/52eb353f1bde5dd884f1e892f221c77542e86ccb(eslint@9.8.0)(prettier@3.3.3)(typescript@5.5.4)
       '@somehow-digital/prettier-config':
         specifier: ^2.0.0
         version: 2.0.0(prettier@3.3.3)
@@ -427,8 +427,14 @@ packages:
     engines: {node: '>=8.10'}
     hasBin: true
 
-  '@somehow-digital/eslint-config@https://codeload.github.com/somehow-digital/eslint-config/tar.gz/7ad530d5859e0352bdd5dcc1639eb4833f4846bb':
-    resolution: {tarball: https://codeload.github.com/somehow-digital/eslint-config/tar.gz/7ad530d5859e0352bdd5dcc1639eb4833f4846bb}
+  '@somehow-digital/cspell-dictionary@1.0.0':
+    resolution: {integrity: sha512-rTMu5qCnZJF1xhH7U8SM5lRbZ3FQao9d9LWg0qlcoUa5ooo5DjZ8eSq/okNYkatxley5fVZFzwkre8Z3AElkQg==}
+    engines: {node: '>=20.3.0', pnpm: '>=9.0.0'}
+    peerDependencies:
+      cspell: ^8.13.0
+
+  '@somehow-digital/eslint-config@https://codeload.github.com/somehow-digital/eslint-config/tar.gz/52eb353f1bde5dd884f1e892f221c77542e86ccb':
+    resolution: {tarball: https://codeload.github.com/somehow-digital/eslint-config/tar.gz/52eb353f1bde5dd884f1e892f221c77542e86ccb}
     version: 2.0.0
     engines: {node: '>=20', pnpm: '>=9'}
     peerDependencies:
@@ -2289,7 +2295,12 @@ snapshots:
       ignore: 5.3.1
       p-map: 4.0.0
 
-  '@somehow-digital/eslint-config@https://codeload.github.com/somehow-digital/eslint-config/tar.gz/7ad530d5859e0352bdd5dcc1639eb4833f4846bb(eslint@9.8.0)(prettier@3.3.3)(typescript@5.5.4)':
+  '@somehow-digital/cspell-dictionary@1.0.0(cspell@8.13.1)':
+    dependencies:
+      '@cspell/dict-de-de': 4.0.0
+      cspell: 8.13.1
+
+  '@somehow-digital/eslint-config@https://codeload.github.com/somehow-digital/eslint-config/tar.gz/52eb353f1bde5dd884f1e892f221c77542e86ccb(eslint@9.8.0)(prettier@3.3.3)(typescript@5.5.4)':
     dependencies:
       '@cspell/eslint-plugin': 8.12.1(eslint@9.8.0)
       '@eslint/js': 9.7.0
