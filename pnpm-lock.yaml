@@ -20,7 +20,7 @@ importers:
         version: 1.0.0(cspell@8.14.2)
       '@somehow-digital/eslint-config':
         specifier: github:somehow-digital/eslint-config
-        version: https://codeload.github.com/somehow-digital/eslint-config/tar.gz/200f159879b1c8aa165b7ec734432a323241cf03(eslint@9.10.0(jiti@1.21.6))(prettier@3.3.3)(typescript@5.5.4)
+        version: https://codeload.github.com/somehow-digital/eslint-config/tar.gz/9cd4cdf24df6ece1a1e2e781df6d897359912705(eslint@9.10.0(jiti@1.21.6))(prettier@3.3.3)(typescript@5.5.4)
       '@somehow-digital/prettier-config':
         specifier: ^2.0.0
         version: 2.0.0(prettier@3.3.3)
@@ -41,7 +41,7 @@ importers:
         version: 9.1.5
       knip:
         specifier: ^5.16.0
-        version: 5.29.2(@types/node@20.16.5)(typescript@5.5.4)
+        version: 5.30.0(@types/node@20.16.5)(typescript@5.5.4)
       lint-staged:
         specifier: ^15.2.2
         version: 15.2.10
@@ -441,8 +441,8 @@ packages:
     peerDependencies:
       cspell: ^8.13.0
 
-  '@somehow-digital/eslint-config@https://codeload.github.com/somehow-digital/eslint-config/tar.gz/200f159879b1c8aa165b7ec734432a323241cf03':
-    resolution: {tarball: https://codeload.github.com/somehow-digital/eslint-config/tar.gz/200f159879b1c8aa165b7ec734432a323241cf03}
+  '@somehow-digital/eslint-config@https://codeload.github.com/somehow-digital/eslint-config/tar.gz/9cd4cdf24df6ece1a1e2e781df6d897359912705':
+    resolution: {tarball: https://codeload.github.com/somehow-digital/eslint-config/tar.gz/9cd4cdf24df6ece1a1e2e781df6d897359912705}
     version: 2.0.0
     engines: {node: '>=20', pnpm: '>=9'}
     peerDependencies:
@@ -1287,8 +1287,8 @@ packages:
   keyv@4.5.4:
     resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
 
-  knip@5.29.2:
-    resolution: {integrity: sha512-NfJ3VDyV7gHvI4lVmr9PQCvC4lvrnTdaRMmtHIVBWB2GWWKj86uTw8Yfnp07M+fQeqOnX3AGPG8hjXHPlE1MEw==}
+  knip@5.30.0:
+    resolution: {integrity: sha512-QDpxtXosXK3OBnmWC2LJudjJROozAXyGzSi+aTuEx/Pf9/OKjmegQWix+X6uBYhPbMb8YEFcKWvI7qBnQCkIEA==}
     engines: {node: '>=18.6.0'}
     hasBin: true
     peerDependencies:
@@ -2333,7 +2333,7 @@ snapshots:
       '@cspell/dict-de-de': 4.0.0
       cspell: 8.14.2
 
-  '@somehow-digital/eslint-config@https://codeload.github.com/somehow-digital/eslint-config/tar.gz/200f159879b1c8aa165b7ec734432a323241cf03(eslint@9.10.0(jiti@1.21.6))(prettier@3.3.3)(typescript@5.5.4)':
+  '@somehow-digital/eslint-config@https://codeload.github.com/somehow-digital/eslint-config/tar.gz/9cd4cdf24df6ece1a1e2e781df6d897359912705(eslint@9.10.0(jiti@1.21.6))(prettier@3.3.3)(typescript@5.5.4)':
     dependencies:
       '@cspell/eslint-plugin': 8.12.1(eslint@9.10.0(jiti@1.21.6))
       '@eslint/js': 9.7.0
@@ -3258,7 +3258,7 @@ snapshots:
     dependencies:
       json-buffer: 3.0.1
 
-  knip@5.29.2(@types/node@20.16.5)(typescript@5.5.4):
+  knip@5.30.0(@types/node@20.16.5)(typescript@5.5.4):
     dependencies:
       '@nodelib/fs.walk': 1.2.8
       '@snyk/github-codeowners': 1.1.0
