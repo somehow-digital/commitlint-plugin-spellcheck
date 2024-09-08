@@ -44,7 +44,7 @@
 		"@somehow-digital/eslint-config": "github:somehow-digital/eslint-config",
 		"@somehow-digital/prettier-config": "^2.0.0",
 		"@types/node": "^20.12.12",
-		"concurrently": "^8.2.2",
+		"concurrently": "^9.0.0",
 		"cspell": "^8.8.1",
 		"eslint": "^9.3.0",
 		"husky": "^9.0.11",
