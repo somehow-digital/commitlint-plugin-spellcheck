@@ -40,6 +40,7 @@
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^19.3.0",
+		"@somehow-digital/commitlint-config": "^1.0.0",
 		"@somehow-digital/cspell-dictionary": "^1.0.0",
 		"@somehow-digital/eslint-config": "github:somehow-digital/eslint-config",
 		"@somehow-digital/prettier-config": "^2.0.0",
