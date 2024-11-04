@@ -44,7 +44,7 @@
 		"@somehow-digital/cspell-dictionary": "^1.0.0",
 		"@somehow-digital/eslint-config": "github:somehow-digital/eslint-config",
 		"@somehow-digital/prettier-config": "^2.0.0",
-		"@types/node": "^20.12.12",
+		"@types/node": "^22.0.0",
 		"concurrently": "^9.0.0",
 		"cspell": "^8.8.1",
 		"eslint": "^9.3.0",
