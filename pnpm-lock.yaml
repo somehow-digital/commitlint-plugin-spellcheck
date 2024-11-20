@@ -22,8 +22,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0(cspell@8.16.0)
       '@somehow-digital/eslint-config':
-        specifier: github:somehow-digital/eslint-config
-        version: https://codeload.github.com/somehow-digital/eslint-config/tar.gz/4798d741919daeeb017842c232630805970ffd5d(eslint@9.14.0(jiti@2.4.0))(prettier@3.3.3)(typescript@5.5.4)
+        specifier: ^3.0.0
+        version: 3.0.0(eslint@9.14.0(jiti@2.4.0))(prettier@3.3.3)(typescript@5.5.4)
       '@somehow-digital/prettier-config':
         specifier: ^2.0.0
         version: 2.0.0(prettier@3.3.3)
@@ -477,9 +477,8 @@ packages:
     peerDependencies:
       cspell: ^8.13.0
 
-  '@somehow-digital/eslint-config@https://codeload.github.com/somehow-digital/eslint-config/tar.gz/4798d741919daeeb017842c232630805970ffd5d':
-    resolution: {tarball: https://codeload.github.com/somehow-digital/eslint-config/tar.gz/4798d741919daeeb017842c232630805970ffd5d}
-    version: 2.0.0
+  '@somehow-digital/eslint-config@3.0.0':
+    resolution: {integrity: sha512-Wg7kvdhKYK1mUyMwzNwwKr4BYL68fim6FdWP1+Isw7lKW/YB73ELwgplLL7LgxIbkyFTM7ua61UoQeaol0/l1g==}
     engines: {node: '>=20', pnpm: '>=9'}
     peerDependencies:
       eslint: ^9.3.0
@@ -2365,7 +2364,7 @@ snapshots:
       '@cspell/dict-de-de': 4.0.0
       cspell: 8.16.0
 
-  '@somehow-digital/eslint-config@https://codeload.github.com/somehow-digital/eslint-config/tar.gz/4798d741919daeeb017842c232630805970ffd5d(eslint@9.14.0(jiti@2.4.0))(prettier@3.3.3)(typescript@5.5.4)':
+  '@somehow-digital/eslint-config@3.0.0(eslint@9.14.0(jiti@2.4.0))(prettier@3.3.3)(typescript@5.5.4)':
     dependencies:
       '@cspell/eslint-plugin': 8.12.1(eslint@9.14.0(jiti@2.4.0))
       '@eslint/js': 9.14.0
