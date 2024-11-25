@@ -1,10 +1,10 @@
 export default {
-	entry: ['src/index.ts'],
-	ignoreDependencies: [
+	branches: ['main'],
+	plugins: [
 		'@semantic-release/commit-analyzer',
+		'@semantic-release/release-notes-generator',
 		'@semantic-release/github',
 		'@semantic-release/npm',
-		'@semantic-release/release-notes-generator',
 	],
-	project: ['src/**'],
+	tagFormat: '${version}',
 };
