@@ -23,7 +23,7 @@ importers:
         version: 2.1.0(cspell@8.16.0)
       '@somehow-digital/eslint-config':
         specifier: ^3.0.0
-        version: 3.0.1(eslint@9.15.0(jiti@2.4.0))(prettier@3.4.1)(typescript@5.6.3)
+        version: 3.0.3(eslint@9.15.0(jiti@2.4.0))(prettier@3.4.1)(typescript@5.6.3)
       '@somehow-digital/prettier-config':
         specifier: ^2.0.0
         version: 2.0.0(prettier@3.4.1)
@@ -556,8 +556,8 @@ packages:
     peerDependencies:
       cspell: ^8.13.0
 
-  '@somehow-digital/eslint-config@3.0.1':
-    resolution: {integrity: sha512-cxRQEUFHwDArihgpttb99TYIaJMZRT7a2kgO+542N2fUDWMKxbbBJqpFMqsoBDQtwH+6vV4hLHOApMsNKCp4pg==}
+  '@somehow-digital/eslint-config@3.0.3':
+    resolution: {integrity: sha512-L3aOWdnnbInXun8JSObFO/DHLC5kXy/NufpfVg24iFn3bIQPOYmqDoJH2Gunb5FTTsjncZgxWqo9qGMyMyTTdA==}
     engines: {node: '>=20', pnpm: '>=9'}
     peerDependencies:
       eslint: ^9.3.0
@@ -1007,8 +1007,8 @@ packages:
   easy-table@1.2.0:
     resolution: {integrity: sha512-OFzVOv03YpvtcWGe5AayU5G2hgybsg3iqA6drU8UaoZyB9jLGMTrz9+asnLp/E+6qPh88yEI1gvyZFZ41dmgww==}
 
-  electron-to-chromium@1.5.64:
-    resolution: {integrity: sha512-IXEuxU+5ClW2IGEYFC2T7szbyVgehupCWQe5GNh+H065CD6U6IFN0s4KeAMFGNmQolRU4IV7zGBWSYMmZ8uuqQ==}
+  electron-to-chromium@1.5.65:
+    resolution: {integrity: sha512-PWVzBjghx7/wop6n22vS2MLU8tKGd4Q91aCEGhG/TYmW6PP5OcSXcdnxTe1NNt0T66N8D6jxh4kC8UsdzOGaIw==}
 
   emoji-regex@10.4.0:
     resolution: {integrity: sha512-EC+0oUMY1Rqm4O6LLrgjtYDvcVYTy7chDnM4Q7030tP4Kwj3u/pR6gP9ygnp2CJMK5Gq+9Q2oqmrFJAz01DXjw==}
@@ -1064,8 +1064,8 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-plugin-perfectionist@4.0.3:
-    resolution: {integrity: sha512-CyafnreF6boy4lf1XaF72U8NbkwrfjU/mOf1y6doaDMS9zGXhUU1DSk+ZPf/rVwCf1PL1m+rhHqFs+IcB8kDmA==}
+  eslint-plugin-perfectionist@4.1.2:
+    resolution: {integrity: sha512-YjXPWB/rKe/gPUsyuxw75wTUrzN5MuJnRV0PH9NoonFvgcdVIXk551mkBKPr59nRZCbu7S3dFHwfo4gA42DB2w==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
       eslint: '>=8.0.0'
@@ -2341,8 +2341,8 @@ packages:
     resolution: {integrity: sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==}
     hasBin: true
 
-  ts-api-utils@1.4.1:
-    resolution: {integrity: sha512-5RU2/lxTA3YUZxju61HO2U6EoZLvBLtmV2mbTvqyu4a/7s7RmJPT+1YekhMVsQhznRWk/czIwDUg+V8Q9ZuG4w==}
+  ts-api-utils@1.4.2:
+    resolution: {integrity: sha512-ZF5gQIQa/UmzfvxbHZI3JXN0/Jt+vnAfAviNRAMc491laiK6YCLpCW9ft8oaCRFOTxCZtUTE6XB0ZQAe3olntw==}
     engines: {node: '>=16'}
     peerDependencies:
       typescript: '>=4.2.0'
@@ -3100,13 +3100,13 @@ snapshots:
       '@cspell/dict-de-de': 4.0.3
       cspell: 8.16.0
 
-  '@somehow-digital/eslint-config@3.0.1(eslint@9.15.0(jiti@2.4.0))(prettier@3.4.1)(typescript@5.6.3)':
+  '@somehow-digital/eslint-config@3.0.3(eslint@9.15.0(jiti@2.4.0))(prettier@3.4.1)(typescript@5.6.3)':
     dependencies:
       '@cspell/eslint-plugin': 8.16.0(eslint@9.15.0(jiti@2.4.0))
       '@eslint/js': 9.15.0
       eslint: 9.15.0(jiti@2.4.0)
       eslint-config-prettier: 9.1.0(eslint@9.15.0(jiti@2.4.0))
-      eslint-plugin-perfectionist: 4.0.3(eslint@9.15.0(jiti@2.4.0))(typescript@5.6.3)
+      eslint-plugin-perfectionist: 4.1.2(eslint@9.15.0(jiti@2.4.0))(typescript@5.6.3)
       eslint-plugin-prettier: 5.2.1(eslint-config-prettier@9.1.0(eslint@9.15.0(jiti@2.4.0)))(eslint@9.15.0(jiti@2.4.0))(prettier@3.4.1)
       eslint-plugin-promise: 7.2.0(eslint@9.15.0(jiti@2.4.0))
       eslint-plugin-unicorn: 56.0.1(eslint@9.15.0(jiti@2.4.0))
@@ -3149,7 +3149,7 @@ snapshots:
       graphemer: 1.4.0
       ignore: 5.3.2
       natural-compare: 1.4.0
-      ts-api-utils: 1.4.1(typescript@5.6.3)
+      ts-api-utils: 1.4.2(typescript@5.6.3)
     optionalDependencies:
       typescript: 5.6.3
     transitivePeerDependencies:
@@ -3179,7 +3179,7 @@ snapshots:
       '@typescript-eslint/utils': 8.16.0(eslint@9.15.0(jiti@2.4.0))(typescript@5.6.3)
       debug: 4.3.7
       eslint: 9.15.0(jiti@2.4.0)
-      ts-api-utils: 1.4.1(typescript@5.6.3)
+      ts-api-utils: 1.4.2(typescript@5.6.3)
     optionalDependencies:
       typescript: 5.6.3
     transitivePeerDependencies:
@@ -3196,7 +3196,7 @@ snapshots:
       is-glob: 4.0.3
       minimatch: 9.0.5
       semver: 7.6.3
-      ts-api-utils: 1.4.1(typescript@5.6.3)
+      ts-api-utils: 1.4.2(typescript@5.6.3)
     optionalDependencies:
       typescript: 5.6.3
     transitivePeerDependencies:
@@ -3310,7 +3310,7 @@ snapshots:
   browserslist@4.24.2:
     dependencies:
       caniuse-lite: 1.0.30001684
-      electron-to-chromium: 1.5.64
+      electron-to-chromium: 1.5.65
       node-releases: 2.0.18
       update-browserslist-db: 1.1.1(browserslist@4.24.2)
 
@@ -3632,7 +3632,7 @@ snapshots:
     optionalDependencies:
       wcwidth: 1.0.1
 
-  electron-to-chromium@1.5.64: {}
+  electron-to-chromium@1.5.65: {}
 
   emoji-regex@10.4.0: {}
 
@@ -3672,7 +3672,7 @@ snapshots:
     dependencies:
       eslint: 9.15.0(jiti@2.4.0)
 
-  eslint-plugin-perfectionist@4.0.3(eslint@9.15.0(jiti@2.4.0))(typescript@5.6.3):
+  eslint-plugin-perfectionist@4.1.2(eslint@9.15.0(jiti@2.4.0))(typescript@5.6.3):
     dependencies:
       '@typescript-eslint/types': 8.16.0
       '@typescript-eslint/utils': 8.16.0(eslint@9.15.0(jiti@2.4.0))(typescript@5.6.3)
@@ -4852,7 +4852,7 @@ snapshots:
 
   tree-kill@1.2.2: {}
 
-  ts-api-utils@1.4.1(typescript@5.6.3):
+  ts-api-utils@1.4.2(typescript@5.6.3):
     dependencies:
       typescript: 5.6.3
 
