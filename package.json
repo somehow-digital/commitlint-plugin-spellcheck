@@ -33,7 +33,7 @@
 		"./src/"
 	],
 	"peerDependencies": {
-		"cspell": "^8.8.1"
+		"cspell": "^8.8.1 || ^9.0.0"
 	},
 	"dependencies": {
 		"cspell-lib": "^9.0.0"
