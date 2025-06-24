@@ -5,7 +5,7 @@
 	"type": "module",
 	"license": "MIT",
 	"repository": "somehow-digital/commitlint-plugin-spellcheck",
-	"packageManager": "pnpm@10.12.2",
+	"packageManager": "pnpm@10.12.3",
 	"keywords": [
 		"commitlint",
 		"commitlintplugin"
