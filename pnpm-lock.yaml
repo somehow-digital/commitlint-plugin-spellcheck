@@ -24,9 +24,6 @@ importers:
       '@somehow-digital/eslint-config':
         specifier: ^4.0.0
         version: 4.0.1(@vue/compiler-sfc@3.5.17)(astro-eslint-parser@1.2.2)(eslint@9.31.0(jiti@2.4.2))(prettier@3.6.2)(ts-api-utils@2.1.0(typescript@5.8.3))(typescript@5.8.3)
-      '@somehow-digital/prettier-config':
-        specifier: ^3.0.0
-        version: 3.0.0(prettier@3.6.2)
       '@somehow-digital/semantic-release-config':
         specifier: ^2.0.0
         version: 2.0.2(semantic-release@24.2.7(typescript@5.8.3))
@@ -51,9 +48,6 @@ importers:
       lint-staged:
         specifier: ^16.0.0
         version: 16.1.2
-      prettier:
-        specifier: ^3.2.5
-        version: 3.6.2
       semantic-release:
         specifier: ^24.2.0
         version: 24.2.7(typescript@5.8.3)
@@ -881,12 +875,6 @@ packages:
     engines: {node: '>=20', pnpm: '>=10'}
     peerDependencies:
       eslint: ^9.5.0
-
-  '@somehow-digital/prettier-config@3.0.0':
-    resolution: {integrity: sha512-T+bO2tmp5AwkIcYf/k/f2J/0S2jSOXDSexHJiKe27SUbWI6SlXb8fMgfq8sdOfR+KiHPtp39UwauFzGu1Skcgg==}
-    engines: {node: '>=22', pnpm: '>=10'}
-    peerDependencies:
-      prettier: ^3.0.3
 
   '@somehow-digital/semantic-release-config@2.0.2':
     resolution: {integrity: sha512-F2o2pXcGH+K/gdFFieUQIrBX2lbUIeGpOvZv73IiD39mGYi5kNsSVdLZAVpjOFL7/WqV/WRrqTaKAJlxBplhUA==}
@@ -4446,10 +4434,6 @@ snapshots:
       - ts-api-utils
       - typescript
       - vitest
-
-  '@somehow-digital/prettier-config@3.0.0(prettier@3.6.2)':
-    dependencies:
-      prettier: 3.6.2
 
   '@somehow-digital/semantic-release-config@2.0.2(semantic-release@24.2.7(typescript@5.8.3))':
     dependencies:
