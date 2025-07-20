@@ -1,6 +1,6 @@
 import { spellCheckDocument } from 'cspell-lib';
 
-const check = async (text) => {
+async function check(text) {
 	const result = await spellCheckDocument(
 		{
 			languageId: 'plaintext',
@@ -13,7 +13,7 @@ const check = async (text) => {
 	);
 
 	return result.issues.length === 0;
-};
+}
 
 export default {
 	rules: {
