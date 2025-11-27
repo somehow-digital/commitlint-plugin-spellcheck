@@ -2,7 +2,7 @@
 	"name": "@somehow-digital/commitlint-plugin-spellcheck",
 	"type": "module",
 	"version": "1.0.1",
-	"packageManager": "pnpm@10.23.0",
+	"packageManager": "pnpm@10.24.0",
 	"description": "Spellcheck commit messages via `cspell`.",
 	"license": "MIT",
 	"repository": "somehow-digital/commitlint-plugin-spellcheck",
