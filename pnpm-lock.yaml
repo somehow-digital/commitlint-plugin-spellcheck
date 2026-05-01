@@ -20,7 +20,7 @@ importers:
         version: 1.2.0(@commitlint/cli@20.5.3(@types/node@24.12.2)(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.4.0)(typescript@5.9.3))(cspell@10.0.0)
       '@somehow-digital/cspell-dictionary':
         specifier: ^2.0.0
-        version: 2.16.0(cspell@10.0.0)
+        version: 2.17.0(cspell@10.0.0)
       '@somehow-digital/eslint-config':
         specifier: ^5.0.0
         version: 5.0.2(@typescript-eslint/rule-tester@8.58.0(eslint@10.2.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.58.0(typescript@5.9.3))(@typescript-eslint/utils@8.58.0(eslint@10.2.1(jiti@2.6.1))(typescript@5.9.3))(@vue/compiler-sfc@3.5.31)(astro-eslint-parser@1.4.0)(eslint@10.2.1(jiti@2.6.1))(prettier@3.8.1)(typescript@5.9.3)
@@ -186,8 +186,8 @@ packages:
     resolution: {integrity: sha512-HoGuUs4sCZNezVEKdVcwqmZN8GoHirLUcLaYVNBK2J0DadGtdcqgr3BCbvH8+XUo4NGjNl3VOtSjEKNzqfFgKw==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/parser@7.29.2':
-    resolution: {integrity: sha512-4GgRzy/+fsBa72/RZVJmGKPmZu9Byn8o4MoLpmNe1m8ZfYnz5emHLQz3U4gLud6Zwl0RZIcgiLD7Uq7ySFuDLA==}
+  '@babel/parser@7.29.3':
+    resolution: {integrity: sha512-b3ctpQwp+PROvU/cttc4OYl4MzfJUWy6FZg+PMXfzmt/+39iHVF0sDfqay8TQM3JA2EUOyKcFZt75jWriQijsA==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
@@ -1269,8 +1269,8 @@ packages:
     peerDependencies:
       cspell: ^8.8.1 || ^9.0.0
 
-  '@somehow-digital/cspell-dictionary@2.16.0':
-    resolution: {integrity: sha512-tB7eCWZ0aCMyHX7CY5thNpxAdIQA1KANHAXnbkFJWSUetBguGskrlo1uGUj9i9C+V12EJIu+ov/cRnb0MRb0cQ==}
+  '@somehow-digital/cspell-dictionary@2.17.0':
+    resolution: {integrity: sha512-w5N2wfCpSHiKRi4xTxMLICm2xtfsPlL3PV6My56CgFJnTgoFN1tvveZ7/4pezg6Pdx2rIoYbmrqOz3im6ZP3nw==}
     engines: {node: '>=22', pnpm: '>=10'}
     peerDependencies:
       cspell: ^8.13.0 || ^9.0.0 || ^10.0.0
@@ -2937,8 +2937,8 @@ packages:
   mz@2.7.0:
     resolution: {integrity: sha512-z81GNO7nnYMEhrGh9LeymoE4+Yr0Wn5McHIZMK5cfQCl+NDX08sCZgUc9/6MHni9IWuFLm1Z3HTCXu2z9fN62Q==}
 
-  nanoid@3.3.11:
-    resolution: {integrity: sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==}
+  nanoid@3.3.12:
+    resolution: {integrity: sha512-ZB9RH/39qpq5Vu6Y+NmUaFhQR6pp+M2Xt76XBnEwDaGcVAqhlvxrl3B2bKS5D3NH3QR76v3aSrKaF/Kiy7lEtQ==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
@@ -3243,8 +3243,8 @@ packages:
     resolution: {integrity: sha512-orRsuYpJVw8LdAwqqLykBj9ecS5/cRHlI5+nvTo8LcCKmzDmqVORXtOIYEEQuL9D4BxtA1lm5isAqzQZCoQ6Eg==}
     engines: {node: '>=4'}
 
-  postcss@8.5.12:
-    resolution: {integrity: sha512-W62t/Se6rA0Az3DfCL0AqJwXuKwBeYg6nOaIgzP+xZ7N5BFCI7DYi1qs6ygUYT6rvfi6t9k65UMLJC+PHZpDAA==}
+  postcss@8.5.13:
+    resolution: {integrity: sha512-qif0+jGGZoLWdHey3UFHHWP0H7Gbmsk8T5VEqyYFbWqPr1XqvLGBbk/sl8V5exGmcYJklJOhOQq1pV9IcsiFag==}
     engines: {node: ^10 || ^12 || >=14}
 
   prelude-ls@1.2.1:
@@ -3948,7 +3948,7 @@ snapshots:
       '@babel/helper-compilation-targets': 7.28.6
       '@babel/helper-module-transforms': 7.28.6(@babel/core@7.29.0)
       '@babel/helpers': 7.29.2
-      '@babel/parser': 7.29.2
+      '@babel/parser': 7.29.3
       '@babel/template': 7.28.6
       '@babel/traverse': 7.29.0
       '@babel/types': 7.29.0
@@ -3963,7 +3963,7 @@ snapshots:
 
   '@babel/generator@7.29.1':
     dependencies:
-      '@babel/parser': 7.29.2
+      '@babel/parser': 7.29.3
       '@babel/types': 7.29.0
       '@jridgewell/gen-mapping': 0.3.13
       '@jridgewell/trace-mapping': 0.3.31
@@ -4006,14 +4006,14 @@ snapshots:
       '@babel/template': 7.28.6
       '@babel/types': 7.29.0
 
-  '@babel/parser@7.29.2':
+  '@babel/parser@7.29.3':
     dependencies:
       '@babel/types': 7.29.0
 
   '@babel/template@7.28.6':
     dependencies:
       '@babel/code-frame': 7.29.0
-      '@babel/parser': 7.29.2
+      '@babel/parser': 7.29.3
       '@babel/types': 7.29.0
 
   '@babel/traverse@7.29.0':
@@ -4021,7 +4021,7 @@ snapshots:
       '@babel/code-frame': 7.29.0
       '@babel/generator': 7.29.1
       '@babel/helper-globals': 7.28.0
-      '@babel/parser': 7.29.2
+      '@babel/parser': 7.29.3
       '@babel/template': 7.28.6
       '@babel/types': 7.29.0
       debug: 4.4.3
@@ -5096,7 +5096,7 @@ snapshots:
       cspell: 10.0.0
       cspell-lib: 9.8.0
 
-  '@somehow-digital/cspell-dictionary@2.16.0(cspell@10.0.0)':
+  '@somehow-digital/cspell-dictionary@2.17.0(cspell@10.0.0)':
     dependencies:
       '@cspell/dict-de-de': 4.1.2
       cspell: 10.0.0
@@ -5325,7 +5325,7 @@ snapshots:
 
   '@vue/compiler-core@3.5.31':
     dependencies:
-      '@babel/parser': 7.29.2
+      '@babel/parser': 7.29.3
       '@vue/shared': 3.5.31
       entities: 7.0.1
       estree-walker: 2.0.2
@@ -5338,14 +5338,14 @@ snapshots:
 
   '@vue/compiler-sfc@3.5.31':
     dependencies:
-      '@babel/parser': 7.29.2
+      '@babel/parser': 7.29.3
       '@vue/compiler-core': 3.5.31
       '@vue/compiler-dom': 3.5.31
       '@vue/compiler-ssr': 3.5.31
       '@vue/shared': 3.5.31
       estree-walker: 2.0.2
       magic-string: 0.30.21
-      postcss: 8.5.12
+      postcss: 8.5.13
       source-map-js: 1.2.1
 
   '@vue/compiler-ssr@3.5.31':
@@ -5954,7 +5954,7 @@ snapshots:
       eslint: 10.2.1(jiti@2.6.1)
       eslint-compat-utils: 0.6.5(eslint@10.2.1(jiti@2.6.1))
       globals: 16.5.0
-      postcss: 8.5.12
+      postcss: 8.5.13
       postcss-selector-parser: 7.1.1
     transitivePeerDependencies:
       - supports-color
@@ -6107,7 +6107,7 @@ snapshots:
   eslint-plugin-react-hooks@7.0.1(eslint@10.2.1(jiti@2.6.1)):
     dependencies:
       '@babel/core': 7.29.0
-      '@babel/parser': 7.29.2
+      '@babel/parser': 7.29.3
       eslint: 10.2.1(jiti@2.6.1)
       hermes-parser: 0.25.1
       zod: 4.3.6
@@ -7222,7 +7222,7 @@ snapshots:
       object-assign: 4.1.1
       thenify-all: 1.6.0
 
-  nanoid@3.3.11: {}
+  nanoid@3.3.12: {}
 
   natural-compare@1.4.0: {}
 
@@ -7498,9 +7498,9 @@ snapshots:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
 
-  postcss@8.5.12:
+  postcss@8.5.13:
     dependencies:
-      nanoid: 3.3.11
+      nanoid: 3.3.12
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
