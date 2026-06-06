@@ -2,6 +2,9 @@ name: SECURITY
 
 on:
   workflow_call:
+    secrets:
+      GITLEAKS_LICENSE:
+        required: true
   merge_group:
   pull_request:
   push:
