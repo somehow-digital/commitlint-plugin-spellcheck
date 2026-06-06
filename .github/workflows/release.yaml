@@ -12,6 +12,8 @@ jobs:
   security:
     name: verify security
     uses: ./.github/workflows/security.yaml
+    secrets:
+      GITLEAKS_LICENSE: ${{ secrets.GITLEAKS_LICENSE }}
   release:
     name: release version
     runs-on: ubuntu-latest
