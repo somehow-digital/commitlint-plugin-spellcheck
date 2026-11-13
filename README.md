@@ -25,3 +25,7 @@ export default {
 	plugins: ['@somehow-digital/commitlint-plugin-spellcheck'],
 };
 ```
+
+---
+
+[`somehow.digital`](https://somehow.digital/)
