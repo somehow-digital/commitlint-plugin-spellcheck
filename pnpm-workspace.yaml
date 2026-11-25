@@ -16,4 +16,4 @@ verifyDepsBeforeRun: install
 optimisticRepeatInstall: true
 
 overrides:
-  vite@*: npm:@voidzero-dev/vite-plus-core@8.3.8000
+  vite@*: npm:@voidzero-dev/vite-plus-core@8.3.8001
